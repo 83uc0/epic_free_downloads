@@ -1,0 +1,15 @@
+{
+  "name": "epic-games-auto-acquire",
+  "version": "1.0.0",
+  "description": "Auto-acquire free games from Epic Games Store",
+  "main": "epic_games_acquire.js",
+  "type": "module",
+  "scripts": {
+    "start": "node epic_games_unified.js",
+    "save-auth": "node save_auth.js",
+    "acquire": "node epic_games_acquire.js"
+  },
+  "dependencies": {
+    "playwright": "^1.40.0"
+  }
+}
